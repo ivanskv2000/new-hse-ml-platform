@@ -3,12 +3,12 @@ from flask import Flask
 from pathlib import Path
 import os
 import yaml
-
 import sqlite3
 from sqlite3 import Error
 
 from database.flask_database import db
 from database.ml_model import Models
+from database.executions import Executions
 from configs.config import PATH_TO_MODELS_DIR, PATH_TO_EXEC_DIR, PATH_TO_PROJ_ROOT
 from routes import model_execution
 
