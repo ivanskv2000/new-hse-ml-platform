@@ -1,0 +1,501 @@
+code_block,import,data_import,data_export,preprocessing,visualization,model,deep_learning_model,train,predict
+How can I send a signal from a python program?,0,0,0,0,0,0,0,0,0
+Decode Hex String in Python 3,0,0,0,1,0,0,0,0,0
+check if all elements in a list are identical,0,0,0,0,0,0,0,0,0
+Format string dynamically,0,0,0,0,0,0,0,0,0
+How to convert a string from CP-1251 to UTF-8?,0,0,0,0,0,0,0,0,0
+How I can get rid of None values in dictionary?,0,0,0,1,0,0,0,0,0
+How I can get rid of None values in dictionary?,0,0,0,1,0,0,0,0,0
+Python: how to get the final output of multiple system commands?,0,0,0,1,0,0,0,0,0
+splitting and concatenating a string,0,0,0,0,0,0,0,0,0
+Finding the intersection between two series in Pandas,0,0,0,0,0,0,0,0,0
+Sending http headers with python,0,0,0,0,0,0,0,0,0
+Python -Remove Time from Datetime String,1,0,0,0,0,0,0,0,0
+How do I split a multi-line string into multiple lines?,0,0,0,1,0,0,0,0,0
+How do I split a multi-line string into multiple lines?,0,0,0,1,0,0,0,0,0
+How to join mixed list (array) (with integers in it) in Python?,0,0,0,1,0,0,0,0,0
+Fastest way to get the first object from a queryset in django?,0,0,0,0,0,0,0,0,0
+How to calculate the sum of all columns of a 2D numpy array (efficiently),0,0,0,0,0,0,0,0,0
+"Python, how to enable all warnings?",0,0,0,1,0,0,0,0,0
+Python printing without commas,0,0,0,0,0,0,0,0,0
+OSError: [WinError 193] %1 is not a valid Win32 application,0,0,0,0,0,0,0,0,0
+How can I parse a time string containing milliseconds in it with python?,0,0,0,0,0,0,0,0,0
+How can I convert a string with dot and comma into a float number in Python,0,0,0,0,0,0,0,0,0
+How can I convert a string with dot and comma into a float number in Python,0,0,0,0,0,0,0,0,0
+"In Python script, how do I set PYTHONPATH?",0,0,0,0,0,0,0,0,0
+Determining the unmatched portion of a string using a regex in Python,0,0,0,0,0,0,0,0,0
+How to read data from Excel and write it to text file line by line?,0,0,0,1,0,0,0,0,0
+download a file over HTTP,0,0,0,0,0,0,0,0,0
+download a file over HTTP,0,0,0,0,0,0,0,0,0
+download a file over HTTP,0,0,0,0,0,0,0,0,0
+download a file over HTTP,0,0,0,0,0,0,0,0,0
+download a file over HTTP,0,0,0,0,0,0,0,0,0
+Python's argparse to show program's version with prog and version string formatting,0,0,0,0,0,0,0,0,0
+Remove key from dictionary in Python returning new dictionary,0,0,0,0,0,0,0,0,0
+Merging two pandas dataframes,0,0,0,0,0,0,0,0,0
+Python regular expression split() string,0,0,0,1,0,0,0,0,0
+How to read keyboard-input?,0,0,0,0,0,0,0,0,0
+Auto reloading python Flask app upon code changes,0,0,0,0,0,0,0,0,0
+Python save list and read data from file,0,0,0,0,0,0,0,0,0
+Numpy: Multiplying a matrix with a 3d tensor -- Suggestion,0,0,0,0,0,0,0,0,0
+How to create nested lists in python?,0,0,0,0,0,0,0,0,0
+Python: Cut off the last word of a sentence?,0,0,0,0,0,0,0,0,0
+Numpy convert scalars to arrays,0,0,0,0,0,0,0,0,0
+Finding the sum of a nested list of ints,0,0,0,0,0,0,0,0,0
+Convert hex to float,0,0,0,0,0,0,0,0,0
+Python: Perform an operation on each dictionary value,0,0,0,0,0,0,0,0,0
+Running bash script from within python,0,0,0,0,0,0,0,0,0
+How would you make a comma-separated string from a list?,0,0,0,0,0,0,0,0,0
+How would you make a comma-separated string from a list?,0,0,0,0,0,0,0,0,0
+Print a list in reverse order with range()?,0,0,0,0,0,0,0,0,0
+How can i subtract two strings in python?,0,0,0,0,0,0,0,0,0
+python reverse tokens in a string,0,0,0,0,0,0,0,0,0
+converting epoch time with milliseconds to datetime,0,0,0,0,0,0,0,0,0
+converting epoch time with milliseconds to datetime,0,0,0,0,0,0,0,0,0
+Getting the date of 7 days ago from current date in python,0,0,0,0,0,0,0,0,0
+How can I sum a column of a list?,0,0,0,1,0,0,0,0,0
+How can I sum a column of a list?,0,0,0,1,0,0,0,0,0
+How to encode text to base64 in python,0,0,0,1,1,0,0,0,0
+How can I combine dictionaries with the same keys in python?,0,0,0,1,0,0,0,0,0
+How can I combine dictionaries with the same keys in python?,0,0,0,1,0,0,0,0,0
+How do I get the url parameter in a Flask view,0,0,0,0,0,0,0,0,0
+Identify duplicate values in a list in Python,0,0,0,0,0,0,0,0,0
+How do you modify sys.path in Google App Engine (Python)?,0,0,0,0,0,0,0,0,0
+How do you modify sys.path in Google App Engine (Python)?,0,0,0,0,0,0,0,0,0
+Insert Null into SQLite3 in Python,0,0,0,0,0,0,0,0,0
+Flattening a shallow list in Python,0,0,0,0,0,0,0,0,0
+Append elements of a set to a list in Python,0,0,0,0,0,0,0,0,0
+Append elements of a set to a list in Python,0,0,0,0,0,0,0,0,0
+"Python, Pandas : write content of DataFrame into text File",0,0,0,0,0,0,1,0,0
+"Python, Pandas : write content of DataFrame into text File",0,0,0,0,0,0,1,0,0
+how to get the last part of a string before a certain character?,0,0,0,0,0,0,0,0,0
+how to get the last part of a string before a certain character?,0,0,0,0,0,0,0,0,0
+FTP upload files Python,0,0,0,0,0,0,0,0,0
+Write value to hidden element with selenium python script,0,0,0,0,0,0,0,0,0
+Combining two numpy arrays to form an array with the largest value from each array,0,0,0,0,0,0,0,0,0
+How to print an entire list while not starting by the first item,0,0,0,0,0,0,0,0,0
+loop over files,0,0,0,0,0,0,0,0,0
+loop over files,0,0,0,0,0,0,0,0,0
+Create random list of integers in Python,0,0,0,0,0,0,0,0,0
+Using %f with strftime() in Python to get microseconds,0,0,0,0,0,0,0,0,0
+Build a GQL query (for Google App Engine) that has a condition on ReferenceProperty,0,0,0,0,0,0,0,0,0
+How to filter rows in pandas by regex,0,0,0,1,0,0,0,0,0
+What is the best way to print a table with delimiters in Python,0,0,0,0,0,0,0,0,0
+Pandas: Delete rows based on multiple columns values,0,0,0,0,0,0,0,0,0
+String Formatting in Python 3,0,0,0,0,0,0,0,0,0
+String Formatting in Python 3,0,0,0,0,0,0,0,0,0
+String Formatting in Python 3,0,0,0,0,0,0,0,0,0
+Convert list of lists to list of integers,0,0,0,0,0,0,0,0,0
+Convert list of lists to list of integers,0,0,0,0,0,0,0,0,0
+Convert list of lists to list of integers,0,0,0,0,0,0,0,0,0
+How to write a list to a file with newlines in Python3,0,0,0,0,0,0,0,0,0
+Removing an element from a list based on a predicate,0,0,0,0,0,0,0,0,0
+python regular expression to remove repeated words,0,0,0,0,0,0,0,0,0
+Counting non zero values in each column of a dataframe in python,0,0,0,0,0,0,1,0,0
+Python match string if it does not start with X,0,0,0,0,0,0,0,0,0
+String to list in Python,0,0,0,0,0,0,0,0,0
+Parsing XML in Python with regex,0,0,0,0,0,0,0,0,0
+How to empty a file using Python,0,0,0,1,0,0,0,0,0
+how to convert a string date into datetime format in python?,0,0,0,1,0,0,0,0,0
+What's the fastest way to locate a list element within a list in python?,0,0,0,0,0,0,0,0,0
+Python: trying to lower a string and remove non-alphanumeric characters aside from space,0,0,0,0,0,0,0,0,0
+Python: trying to lower a string and remove non-alphanumeric characters aside from space,0,0,0,0,0,0,0,0,0
+Subscripting text in matplotlib labels,0,0,0,0,1,0,0,0,0
+Subscripting text in matplotlib labels,0,0,0,0,1,0,0,0,0
+Looping over a list in Python,0,0,0,0,0,0,0,0,0
+Initialize a list of objects in Python,0,0,0,0,0,0,0,0,0
+Initialize a list of objects in Python,0,0,0,0,0,0,0,0,0
+selenium how to get the content of href within some targeted class,0,0,0,0,0,0,0,0,0
+Joining Table/DataFrames with common Column in Python,0,0,0,0,0,0,0,0,0
+insert variable values into a string in python,0,0,0,0,0,0,0,0,0
+Split a string by a delimiter in python,0,0,0,1,0,0,0,0,0
+check if a directory exists and create it if necessary,0,0,0,0,0,0,0,0,0
+check if a directory exists and create it if necessary,0,0,0,0,0,0,0,0,0
+check if a directory exists and create it if necessary,0,0,0,0,0,0,0,0,0
+check if a directory exists and create it if necessary,0,0,0,0,0,0,0,0,0
+Replace a substring when it is a separate word,0,0,0,1,0,0,0,0,0
+Python: removing characters except digits from string,0,0,0,0,0,0,0,0,0
+Python: removing characters except digits from string,0,0,0,0,0,0,0,0,0
+"How to access a tag called ""name"" in BeautifulSoup",0,0,0,0,0,0,0,0,0
+Iterate through PyMongo Cursor as key-value pair,0,0,0,0,0,0,0,0,0
+Python how to combine two matrices in numpy,0,0,0,0,0,0,0,0,0
+Python how to combine two matrices in numpy,0,0,0,0,0,0,0,0,0
+how to check the character count of a file in python,0,0,0,0,0,0,0,0,0
+count the occurrences of a list item,0,0,0,0,0,0,0,0,0
+count the occurrences of a list item,0,0,0,0,0,0,0,0,0
+count the occurrences of a list item,0,0,0,0,0,0,0,0,0
+count the occurrences of a list item,0,0,0,0,0,0,0,0,0
+count the occurrences of a list item,0,0,0,0,0,0,0,0,0
+How to copy a file using python?,0,0,0,1,0,0,0,0,0
+Efficient way to find the largest key in a dictionary with non-zero value,0,0,0,0,0,0,0,0,0
+Efficient way to find the largest key in a dictionary with non-zero value,0,0,0,0,0,0,0,0,0
+Efficient way to find the largest key in a dictionary with non-zero value,0,0,0,0,0,0,0,0,0
+Re-read an open file Python,0,0,0,0,0,0,0,0,0
+Coalesce values from 2 columns into a single column in a pandas dataframe,1,0,0,0,0,0,1,0,0
+python: Is this a wrong way to remove an element from a dict?,0,0,0,0,0,0,0,0,0
+How can I subtract or add 100 years to a datetime field in the database in Django?,0,0,0,0,1,0,0,0,0
+How to merge multiple lists into one list in python?,0,0,0,1,0,0,0,0,0
+How to increment a value with leading zeroes?,0,0,0,0,0,0,0,0,0
+How can I check if a Pandas dataframe's index is sorted,0,0,0,0,0,0,1,0,0
+Convert tuple to list,0,0,0,0,0,0,0,0,0
+Convert tuple to list,0,0,0,0,0,0,0,0,0
+Convert tuple to list and back,0,0,0,0,0,0,0,0,0
+how to send the output of pprint module to a log file,0,0,0,0,0,0,0,0,0
+Python Pandas: Get index of rows which column matches certain value,0,0,0,0,0,0,0,0,0
+Python Pandas: Get index of rows which column matches certain value,0,0,0,0,0,0,0,0,0
+Python Pandas: Get index of rows which column matches certain value,0,0,0,0,0,0,0,0,0
+Python Pandas: Get index of rows which column matches certain value,0,0,0,0,0,0,0,0,0
+How do I change directory back to my original working directory with Python?,0,0,0,0,0,0,0,0,0
+How to insert strings with quotes and newlines into sqlite db with Python?,0,0,0,0,0,0,0,0,0
+"Python - how to convert a ""raw"" string into a normal string",0,0,0,0,0,0,0,0,0
+"Python - how to convert a ""raw"" string into a normal string",0,0,0,0,0,0,0,0,0
+"Python - how to convert a ""raw"" string into a normal string",0,0,0,0,0,0,0,0,0
+Splitting a string with repeated characters into a list using regex,0,0,0,0,0,0,0,0,0
+How to do a scatter plot with empty circles in Python?,0,0,0,0,1,0,0,0,0
+How to do a scatter plot with empty circles in Python?,0,0,0,0,1,0,0,0,0
+Deleting a div with a particlular class using BeautifulSoup,0,0,0,0,0,0,0,0,0
+How to filter rows containing a string pattern from a Pandas dataframe,0,0,0,1,0,0,1,0,0
+How to convert pandas index in a dataframe to a column?,0,0,0,1,0,0,1,0,0
+How to convert pandas index in a dataframe to a column?,0,0,0,1,0,0,1,0,0
+How to convert pandas index in a dataframe to a column?,0,0,0,1,0,0,1,0,0
+Generic reverse of list items in Python,0,0,0,0,0,0,0,0,0
+"in Numpy, how to zip two 2-D arrays?",0,0,0,0,0,0,0,0,0
+"in Numpy, how to zip two 2-D arrays?",0,0,0,0,0,0,0,0,0
+How to convert a list of longs into a comma separated string in python,0,0,0,0,0,0,0,0,0
+Posting raw data with Python,0,0,0,0,0,0,0,0,0
+Find last occurrence of character,0,0,0,0,0,0,0,0,0
+Ending with a for loop in python,0,0,0,0,0,0,0,0,0
+transpose dictionary (extract all the values for one key from a list of dictionaries),0,0,0,0,0,0,0,0,0
+How to get the filename without the extension from a path in Python?,0,0,0,1,0,0,0,0,0
+Make dictionary from list with python,1,0,0,0,0,0,0,0,0
+Merging a list of lists,0,0,0,0,0,0,0,0,0
+"How to select rows in a DataFrame between two values, in Python Pandas?",0,0,0,0,0,0,1,0,0
+Replace all occurrences of a string in a pandas dataframe (Python),0,0,0,1,0,0,1,0,0
+Replace all occurrences of a string in a pandas dataframe (Python),0,0,0,1,0,0,1,0,0
+Mapping a string into a list of pairs,0,0,0,1,0,0,0,0,0
+Mapping a string into a list of pairs,0,0,0,1,0,0,0,0,0
+How do you extract a url from a string using python?,0,0,0,0,0,0,0,0,0
+How do you extract a url from a string using python?,0,0,0,0,0,0,0,0,0
+"Remove all special characters, punctuation and spaces from string",0,0,0,0,0,0,0,0,0
+How to get a daterange of the 2nd Fridays of each month?,0,0,0,1,0,0,0,0,0
+Multidimensional array in Python,0,0,0,0,0,0,0,0,0
+How do I replace whitespaces with underscore and vice versa?,0,0,0,1,0,0,0,0,0
+How to get an absolute file path in Python,0,0,0,1,0,0,0,0,0
+Is there a string-collapse library function in python?,0,0,0,0,0,0,0,0,0
+Get Filename Without Extension in Python,0,0,0,0,0,0,0,0,0
+How to sum elements in functional way,0,0,0,0,0,0,0,0,0
+Python Regex Split Keeps Split Pattern Characters,0,0,0,1,0,0,0,0,0
+Shuffle columns of an array with Numpy,0,0,0,0,0,0,0,0,0
+Copy all values in a column to a new column in a pandas dataframe,0,0,0,0,0,0,1,0,0
+Find a value within nested json dictionary in python,0,0,0,0,0,0,0,0,0
+True for all characters of a string,0,0,0,0,0,0,0,0,0
+How to determine number of files on a drive with Python?,0,0,0,1,0,0,0,0,0
+how to get a single result from a SQLite query in python?,0,0,0,0,0,0,0,0,0
+How to convert a string list into an integer in python,0,0,0,0,0,0,0,0,0
+How to convert a string list into an integer in python,0,0,0,0,0,0,0,0,0
+Sorting a Python list by two criteria,0,0,0,0,0,0,0,0,0
+"How to sort a list of objects , based on an attribute of the objects?",0,0,0,0,0,0,0,0,0
+"How to sort a list of objects , based on an attribute of the objects?",0,0,0,0,0,0,0,0,0
+"How to sort a list of objects , based on an attribute of the objects?",0,0,0,0,0,0,0,0,0
+Click a href button with selenium and python?,0,0,0,0,0,0,0,0,0
+Click a href button with selenium and python?,0,0,0,0,0,0,0,0,0
+Click a href button with selenium and python?,0,0,0,0,0,0,0,0,0
+Casting an int to a string in Python,0,0,0,0,0,0,0,0,0
+Sorting data in DataFrame Pandas,0,0,0,0,0,0,1,0,0
+Prepend a line to an existing file in Python,0,0,0,0,0,0,0,0,0
+Python sort a List by length of value in tuple,0,0,0,0,0,0,0,0,0
+Split by suffix with Python regular expression,0,0,0,1,0,0,0,0,0
+python's re: return True if regex contains in the string,0,0,0,1,0,0,0,0,0
+Removing duplicates in lists,0,0,0,0,0,0,0,0,0
+Removing duplicates in lists,0,0,0,0,0,0,0,0,0
+Removing duplicates in lists,0,0,0,0,0,0,0,0,0
+How to make List from Numpy Matrix in Python,1,0,0,0,0,0,0,0,0
+How to make List from Numpy Matrix in Python,1,0,0,0,0,0,0,0,0
+Beautifulsoup - nextSibling,0,0,0,0,0,0,0,0,0
+Converting lists of tuples to strings Python,0,0,0,0,0,0,0,0,0
+Converting lists of tuples to strings Python,0,0,0,0,0,0,0,0,0
+Splinter or Selenium: Can we get current html page after clicking a button?,0,0,0,0,0,0,0,0,0
+Find a specific pattern (regular expression) in a list of strings (Python),0,0,0,0,0,0,0,0,0
+Selecting with complex criteria from pandas.DataFrame,0,0,0,0,0,0,1,0,0
+How to sort dictionaries by keys in Python,0,0,0,0,0,0,0,0,0
+How to sort dictionaries by keys in Python,0,0,0,0,0,0,0,0,0
+How to sort dictionaries by keys in Python,0,0,0,0,0,0,0,0,0
+convert strings into integers,0,0,0,0,0,0,0,0,0
+convert strings into integers,0,0,0,0,0,0,0,0,0
+convert strings into integers,0,0,0,0,0,0,0,0,0
+How to call a shell script from python code?,0,0,0,0,0,0,0,0,0
+How to call a shell script from python code?,0,0,0,0,0,0,0,0,0
+Interleaving two lists in Python,0,0,0,0,0,0,0,0,0
+Base64 encoding in Python 3,0,0,0,0,1,0,0,0,0
+Base64 encoding in Python 3,0,0,0,0,1,0,0,0,0
+Parsing CSV / tab-delimited txt file with Python,0,0,0,0,0,0,0,0,0
+Python - Access object attributes as in a dictionary,0,0,0,0,0,0,0,0,0
+list of dicts to/from dict of lists,0,0,0,0,0,0,0,0,0
+How do I sum the first value in each tuple in a list of tuples in Python?,0,0,0,0,0,0,0,0,0
+Convert unicode string dictionary into dictionary in python,0,0,0,0,0,0,0,0,0
+Find all words in a string that start with the $ sign in Python,0,0,0,0,0,0,0,0,0
+How to remove any URL within a string in Python,0,0,0,0,0,0,0,0,0
+How to find all elements in a numpy 2-dimensional array that match a certain list?,0,0,0,0,0,0,0,0,0
+Calculate mean across dimension in a 2D array,0,0,0,0,0,0,0,0,0
+Running R script from python,1,0,0,0,0,0,0,0,0
+Running R script from python,1,0,0,0,0,0,0,0,0
+How to add a header to a csv file in Python?,0,0,0,0,0,0,0,0,0
+Pandas Dataframe: Replacing NaN with row average,0,0,0,0,0,0,1,0,0
+Python: Converting Epoch time into the datetime,0,0,0,0,0,0,0,0,0
+Calling a base class's classmethod in Python,0,0,0,0,1,0,0,0,0
+selecting rows in numpy ndarray based on the value of two columns,0,0,0,0,0,0,0,0,0
+Python regex separate space-delimited words into a list,0,0,0,0,0,0,0,0,0
+Length of longest word in a list,0,0,0,0,0,0,0,0,0
+accessing python dictionary,0,0,0,0,0,0,0,0,0
+Save line in file to list,0,0,0,0,0,0,0,0,0
+Python: Best Way to Exchange Keys with Values in a Dictionary?,0,0,0,0,0,0,0,0,0
+creating a tmp file in python,0,0,0,0,0,0,0,0,0
+How to count distinct values in a column of a pandas group by object?,0,0,0,1,0,0,0,0,0
+Check for a key pattern in a dictionary in python,0,0,0,0,0,0,0,0,0
+Check for a key pattern in a dictionary in python,0,0,0,0,0,0,0,0,0
+"python, best way to convert a pandas series into a pandas dataframe",0,0,0,0,0,0,1,0,0
+printing tab-separated values of a list,0,0,0,0,0,0,0,0,0
+Python unicode string with UTF-8?,0,0,0,0,0,0,0,0,0
+Python unicode string with UTF-8?,0,0,0,0,0,0,0,0,0
+How to adjust the quality of a resized image in Python Imaging Library?,0,0,0,0,0,0,0,0,0
+"Regex, find pattern only in middle of string",0,0,0,0,0,0,0,0,0
+how to show Percentage in python,0,0,0,1,0,0,0,0,0
+Sort a list of dicts by dict values,0,0,0,0,0,0,0,0,0
+Sort a list of dicts by dict values,0,0,0,0,0,0,0,0,0
+Sort a list of dicts by dict values,0,0,0,0,0,0,0,0,0
+finding n largest differences between two lists,0,0,0,0,0,0,0,0,0
+Finding multiple attributes within the span tag in Python,0,0,0,0,0,0,0,0,0
+Pandas writing dataframe to other postgresql schema,0,0,0,0,0,0,1,0,0
+Regular Expression to find brackets in a string,0,0,0,0,0,0,0,0,0
+Removing duplicates from list of lists in Python,0,0,0,0,0,0,0,0,0
+Reading a file without newlines,0,0,0,0,0,0,0,0,0
+get item's position in a list,0,0,0,0,0,0,0,0,0
+get item's position in a list,0,0,0,0,0,0,0,0,0
+get item's position in a list,0,0,0,0,0,0,0,0,0
+get item's position in a list,0,0,0,0,0,0,0,0,0
+get item's position in a list,0,0,0,0,0,0,0,0,0
+get item's position in a list,0,0,0,0,0,0,0,0,0
+get item's position in a list,0,0,0,0,0,0,0,0,0
+Find the maximum value in a list of tuples in Python,0,0,0,0,0,0,0,0,0
+Find the maximum value in a list of tuples in Python,0,0,0,0,0,0,0,0,0
+How do I simulate a progress counter in a command line application in Python?,0,0,0,0,0,0,0,0,0
+Tuple conversion to a string,0,0,0,0,0,0,0,0,0
+Default value for field in Django model,0,0,0,0,0,0,0,0,0
+How do I perform secondary sorting in python?,0,0,0,0,0,0,0,0,0
+How do I perform secondary sorting in python?,0,0,0,0,0,0,0,0,0
+Python: convert list to generator,0,0,0,0,0,0,0,0,0
+Remove multiple items from list in Python,1,0,0,0,0,0,0,0,0
+Deleting a specific line in a file (python),0,0,0,0,0,0,0,0,0
+Attribute getters in python,0,0,0,0,0,0,0,0,0
+How do I convert tuple of tuples to list in one line (pythonic)?,0,0,0,0,0,0,0,0,0
+How do I convert tuple of tuples to list in one line (pythonic)?,0,0,0,0,0,0,0,0,0
+Python Pandas: How to replace a characters in a column of a dataframe?,0,0,0,1,0,0,1,0,0
+inverse of zip,0,0,0,0,0,0,0,0,0
+inverse of zip,0,0,0,0,0,0,0,0,0
+inverse of zip,0,0,0,0,0,0,0,0,0
+inverse of zip,0,0,0,0,0,0,0,0,0
+inverse of zip,0,0,0,0,0,0,0,0,0
+inverse of zip,0,0,0,0,0,0,0,0,0
+Python JSON serialize a Decimal object,0,0,0,0,0,0,0,0,0
+Add key to a dictionary,0,0,0,0,0,0,0,0,0
+Add key to a dictionary,0,0,0,0,0,0,0,0,0
+Add key to a dictionary,0,0,0,0,0,0,0,0,0
+Add key to a dictionary,0,0,0,0,0,0,0,0,0
+Is there a one line code to find maximal value in a matrix?,0,0,0,0,0,0,0,0,0
+Python - how to round down to 2 decimals,0,0,0,0,0,0,0,0,0
+Extract IP address from an html string (python),0,0,0,0,0,0,0,0,0
+How do I filter a pandas DataFrame based on value counts?,0,0,0,1,0,0,1,0,0
+Converting a string into a list in Python,0,0,0,0,0,0,0,0,0
+Converting a string into a list in Python,0,0,0,0,0,0,0,0,0
+Adding Colorbar to a Spectrogram,0,0,0,0,0,0,0,0,0
+Count most frequent 100 words from sentences in Dataframe Pandas,1,0,0,0,0,0,1,0,0
+Python split a string using regex,0,0,0,1,0,0,0,0,0
+Generate all subsets of size k (containing k elements) in Python,0,0,0,0,0,0,0,0,0
+"Python: How to get a value of datetime.today() that is ""timezone aware""?",0,0,0,0,0,0,0,0,0
+Python: How to remove empty lists from a list?,0,0,0,0,0,0,0,0,0
+Python: How to remove empty lists from a list?,0,0,0,0,0,0,0,0,0
+Django view returning json without using template,0,0,0,0,0,0,0,0,0
+regex to get all text outside of brackets,0,0,0,0,0,0,0,0,0
+regex to get all text outside of brackets,0,0,0,0,0,0,0,0,0
+Matching multiple regex patterns with the alternation operator?,0,0,0,0,0,0,0,0,0
+Matching multiple regex patterns with the alternation operator?,0,0,0,0,0,0,0,0,0
+Matching multiple regex patterns with the alternation operator?,0,0,0,0,0,0,0,0,0
+Perform a string operation for every element in a Python list,0,0,0,0,0,0,0,0,0
+start python script as background process from within a python script,0,0,0,0,0,0,0,0,0
+Python dictionary: Get list of values for list of keys,0,0,0,0,0,0,0,0,0
+Create dictionary from lists of keys and multiple values,0,0,0,0,0,0,0,0,0
+Numpy - Averaging multiple columns of a 2D array,0,0,0,0,0,0,0,0,0
+Replace all quotes in a string with escaped quotes?,0,0,0,1,0,0,0,0,0
+Partitioning a string in Python by a regular expression,0,0,0,0,0,0,0,0,0
+plotting stacked barplots on a panda data frame,0,0,0,0,0,0,0,0,0
+How to reverse a dictionary in Python?,0,0,0,0,0,0,0,0,0
+finding index of multiple items in a list,0,0,0,0,0,0,0,0,0
+find out if a Python object is a string,0,0,0,0,0,0,0,0,0
+find out if a Python object is a string,0,0,0,0,0,0,0,0,0
+find out if a Python object is a string,0,0,0,0,0,0,0,0,0
+find out if a Python object is a string,0,0,0,0,0,0,0,0,0
+find out if a Python object is a string,0,0,0,0,0,0,0,0,0
+take the content of a list and append it to another list,0,0,0,0,0,0,0,0,0
+take the content of a list and append it to another list,0,0,0,0,0,0,0,0,0
+take the content of a list and append it to another list,0,0,0,0,0,0,0,0,0
+take the content of a list and append it to another list,0,0,0,0,0,0,0,0,0
+Appending tuples to lists,0,0,0,0,0,0,0,0,0
+Where do I get a SECRET_KEY for Flask?,0,0,0,0,0,0,0,0,0
+How to unpack a Series of tuples in Pandas?,0,0,0,0,0,0,0,0,0
+"How to find the position of an element in a list , in Python?",0,0,0,0,0,0,0,0,0
+Is it possible to wrap the text of xticks in matplotlib in python?,0,0,0,0,1,0,0,0,0
+How to remove symbols from a string with Python?,0,0,0,1,0,0,0,0,0
+get current directory - Python,0,0,0,0,0,0,0,0,0
+Regex and Octal Characters,0,0,0,0,0,0,0,0,0
+Python split string based on regex,0,0,0,1,0,0,0,0,0
+Python split string based on regex,0,0,0,1,0,0,0,0,0
+Using Python Requests to send file and JSON in single request,0,0,0,0,0,0,0,0,0
+How to write bytes to a file in Python 3 without knowing the encoding?,0,0,0,0,0,0,0,0,0
+Mapping dictionary value to list,0,0,0,1,1,0,0,0,0
+How to find duplicate names using pandas?,0,0,0,1,0,0,0,0,0
+Truncating floats in Python,0,0,0,0,0,0,0,0,0
+Order list by date (String and datetime),0,0,0,0,0,0,0,0,0
+Move radial tick labels on a polar plot in matplotlib,0,0,0,0,1,0,0,0,0
+How to check if a path is absolute path or relative path in cross platform way with Python?,0,0,0,0,0,0,0,0,0
+Counting the Number of keywords in a dictionary in python,0,0,0,0,0,0,0,0,0
+Counting the Number of keywords in a dictionary in python,0,0,0,0,0,0,0,0,0
+Pandas dataframe get first row of each group,0,0,0,0,0,0,1,0,0
+Splitting a list in a Pandas cell into multiple columns,0,0,0,0,0,0,0,0,0
+Extracting specific src attributes from script tags,0,0,0,0,0,0,0,0,0
+Most efficient way to convert items of a list to int and sum them up,0,0,0,0,0,0,0,0,0
+How to use subprocess when multiple arguments contain spaces?,0,0,0,0,0,0,0,0,0
+how to reverse a priority queue in Python without using classes?,0,0,0,0,0,0,0,0,0
+pandas plot dataframe barplot with colors by category,0,0,0,0,1,0,1,0,0
+Python regex for MD5 hash,0,0,0,0,0,0,0,0,0
+Getting the length of an array,0,0,0,0,0,0,0,0,0
+Getting the length of an array,0,0,0,0,0,0,0,0,0
+Getting the length of an array,0,0,0,0,0,0,0,0,0
+Getting the length of an array,0,0,0,0,0,0,0,0,0
+Getting the length of an array,0,0,0,0,0,0,0,0,0
+remove escape character from string,0,0,0,0,0,0,0,0,0
+Python string replace two things at once?,0,0,0,1,0,0,0,0,0
+How do I remove/delete a folder that is not empty with Python?,0,0,0,0,0,0,0,0,0
+in pandas how can I groupby weekday() for a datetime column?,0,0,0,1,0,0,0,0,0
+How to sort Counter by value? - python,0,0,0,1,0,0,0,0,0
+How to sort Counter by value? - python,0,0,0,1,0,0,0,0,0
+Append a NumPy array to a NumPy array,0,0,0,0,0,0,0,0,0
+numpy concatenate two arrays vertically,0,0,0,1,0,0,0,0,0
+numpy concatenate two arrays vertically,0,0,0,1,0,0,0,0,0
+numpy concatenate two arrays vertically,0,0,0,1,0,0,0,0,0
+numpy concatenate two arrays vertically,0,0,0,1,0,0,0,0,0
+"How can I do DNS lookups in Python, including referring to /etc/hosts?",0,0,0,0,0,0,0,0,0
+How to update a subset of a MultiIndexed pandas DataFrame,0,0,0,1,0,0,1,0,0
+How do I return a 401 Unauthorized in Django?,0,0,0,0,0,0,0,0,0
+How to dynamically select template directory to be used in flask?,0,0,0,0,0,0,0,0,0
+How do I INSERT INTO t1 (SELECT * FROM t2) in SQLAlchemy?,0,0,0,0,0,0,0,0,0
+Sorting a list of lists in Python,0,0,0,0,0,0,0,0,0
+Sorting a list of lists in Python,0,0,0,0,0,0,0,0,0
+Sorting a list of lists in Python,0,0,0,0,0,0,0,0,0
+Non-ASCII characters in Matplotlib,0,0,0,0,1,0,0,0,0
+Pandas datetime column to ordinal,0,0,0,0,0,0,0,0,0
+Get HTML Source of WebElement in Selenium WebDriver using Python,0,0,0,0,0,0,0,0,0
+Most efficient way to get the integer index of a key in pandas,0,0,0,0,0,0,0,0,0
+open a terminal from python,1,0,0,0,0,0,0,0,0
+Python - How to declare and add items to an array?,0,0,0,1,0,0,0,0,0
+Python - How to declare and add items to an array?,0,0,0,1,0,0,0,0,0
+Python - How to declare and add items to an array?,0,0,0,1,0,0,0,0,0
+Add entry to list and remove first one in Python,0,0,0,0,0,0,1,0,0
+Converting a hex-string representation to actual bytes in Python,0,0,0,0,0,0,0,0,0
+How to select the last column of dataframe,0,0,0,0,0,0,1,0,0
+How to get a value from a Pandas DataFrame and not the index and object type,1,0,0,1,0,0,1,0,0
+Converting two lists into a matrix,0,0,0,0,0,0,0,0,0
+determine the variable type,0,0,0,0,0,0,0,0,0
+determine the variable type,0,0,0,0,0,0,0,0,0
+determine the variable type,0,0,0,0,0,0,0,0,0
+determine the variable type,0,0,0,0,0,0,0,0,0
+determine the variable type,0,0,0,0,0,0,0,0,0
+determine the variable type,0,0,0,0,0,0,0,0,0
+Get the nth item of a generator in Python,0,0,0,0,0,0,0,0,0
+printing double quotes around a variable,0,0,0,0,0,0,0,0,0
+Python concat string with list,0,0,0,1,0,0,0,0,0
+Extending a list of lists in Python?,0,0,0,0,0,0,0,0,0
+How do you read a file into a list in Python?,0,0,0,0,0,0,0,0,0
+How to delete all instances of a character in a string in python?,0,0,0,0,0,0,0,0,0
+How to delete all instances of a character in a string in python?,0,0,0,0,0,0,0,0,0
+How to delete all instances of a character in a string in python?,0,0,0,0,0,0,0,0,0
+How to delete all instances of a character in a string in python?,0,0,0,0,0,0,0,0,0
+How to drop rows of Pandas DataFrame whose value in certain columns is NaN,0,0,0,1,0,0,1,0,0
+Searching a list of objects in Python,0,0,0,0,0,0,0,0,0
+converting list of string to list of integer,0,0,0,0,0,0,0,0,0
+converting list of string to list of integer,0,0,0,0,0,0,0,0,0
+print in Python without newline or space,0,0,0,0,0,0,0,0,0
+Python float to int conversion,0,0,0,0,0,0,0,0,0
+Find all files in directory with extension .txt,0,0,0,0,0,0,0,0,0
+Find all files in directory with extension .txt,0,0,0,0,0,0,0,0,0
+Find all files in directory with extension .txt,0,0,0,0,0,0,0,0,0
+Pandas (python) plot() without a legend,0,0,0,0,1,0,0,0,0
+loop through an IP address range,0,0,0,0,0,0,0,0,0
+loop through an IP address range,0,0,0,0,0,0,0,0,0
+loop through an IP address range,0,0,0,0,0,0,0,0,0
+Python/Numpy: Convert list of bools to unsigned int,0,0,0,0,0,0,0,0,0
+Python: How to write multiple strings in one line?,0,0,0,0,0,0,0,0,0
+How to flatten a hetrogenous list of list into a single list in python?,0,0,0,1,0,0,0,0,0
+"In Python, is it possible to escape newline characters when printing a string?",0,0,0,0,0,0,0,0,0
+String Slicing Python,0,0,0,0,0,0,0,0,0
+Middle point of each pair of an numpy.array,0,0,0,0,0,0,0,0,0
+Middle point of each pair of an numpy.array,0,0,0,0,0,0,0,0,0
+Reading unicode elements into numpy array,0,0,0,0,0,0,0,0,0
+How to sort this list in Python?,0,0,0,1,0,0,0,0,0
+How to sort this list in Python?,0,0,0,1,0,0,0,0,0
+pandas DataFrame filter regex,0,0,0,1,0,0,1,0,0
+How do I find the string between two special characters?,0,0,0,0,0,0,0,0,0
+How to create a list of date string in 'yyyymmdd' format with Python Pandas?,0,0,0,1,0,0,0,0,0
+How to count the number of times something occurs inside a certain string?,0,0,0,0,0,0,0,0,0
+Sending post data from angularjs to django as JSON and not as raw content,1,0,0,0,0,0,0,0,0
+Download file from web in Python 3,1,0,0,0,0,0,0,0,0
+Split string into a list,0,0,0,1,0,0,0,0,0
+Split string into a list,0,0,0,1,0,0,0,0,0
+Split string into a list,0,0,0,1,0,0,0,0,0
+Replacing characters in a regex,0,0,0,0,0,0,0,0,0
+Sort A list of Strings Based on certain field,0,0,0,0,0,0,0,0,0
+how to call multiple bash functions using | in python,0,0,0,0,0,0,0,0,0
+How to eliminate all strings from a list,1,0,0,1,0,0,0,0,0
+How to eliminate all strings from a list,1,0,0,1,0,0,0,0,0
+How do I sort a list of dictionaries by values of the dictionary in Python?,0,0,0,0,0,0,0,0,0
+How do I sort a list of dictionaries by values of the dictionary in Python?,0,0,0,0,0,0,0,0,0
+How do I sort a list of dictionaries by values of the dictionary in Python?,0,0,0,0,0,0,0,0,0
+How do I sort a list of dictionaries by values of the dictionary in Python?,0,0,0,0,0,0,0,0,0
+How to sort a Dataframe by the ocurrences in a column in Python (pandas),0,0,0,1,0,0,1,0,0
+How can I access elements inside a list within a dictionary python?,0,0,0,0,0,0,0,0,0
+Variants of string concatenation?,0,0,0,0,0,0,0,0,0
+How do I get JSON data from RESTful service using Python?,0,0,0,1,0,0,0,0,0
+Removing an item from list matching a substring - Python,0,0,0,0,0,0,0,0,0
+Django filter by hour,0,0,0,1,0,0,0,0,0
+sort a list of dicts by x then by y,0,0,0,0,0,0,0,0,0
+How to convert a Python datetime object to seconds,0,0,0,0,0,0,0,0,0
+How to replace only part of the match with python re.sub,0,0,0,1,0,0,0,0,0
+How can I reload objects in my namespace in ipython,0,0,0,0,0,0,0,0,0
+How to get a 16bit Unsigned integer in python,0,0,0,0,0,0,0,0,0
+How can I use sum() function for a list in Python?,0,0,0,0,0,0,0,0,0
+Removing index column in pandas,0,0,0,0,0,0,0,0,0
+How to convert a string data to a JSON object in python?,0,0,0,0,0,0,0,0,0
+Is there a Python Library that contains a list of all the ascii characters?,0,0,0,0,0,0,0,0,0
+Python how to write to a binary file?,0,0,0,1,0,0,0,0,0
+Python Regex - checking for a capital letter with a lowercase after,0,0,0,0,0,0,0,0,0
+Last Key in Python Dictionary,0,0,0,0,0,0,0,0,0
+write line to file,0,0,0,0,0,0,0,0,0
+write line to file,0,0,0,0,0,0,0,0,0
+write line to file,0,0,0,0,0,0,0,0,0
+Python - Unicode to ASCII conversion,0,0,0,0,0,0,0,0,0
+How to get max value in django ORM,0,0,0,1,0,0,0,0,0
+Python regex findall numbers and dots,0,0,0,0,0,0,0,0,0
+Python regex findall numbers and dots,0,0,0,0,0,0,0,0,0
+Is there a way to run powershell code in python,0,0,0,0,0,0,0,0,0
+Sorting a dictionary of tuples in Python,0,0,0,0,0,0,0,0,0
+How do I get all the keys that are stored in the Cassandra column family with pycassa?,0,0,0,0,0,0,0,0,0
+how to create a file name with the current date & time in python?,0,0,0,1,0,0,0,0,0
+How to get the index of an integer from a list if the list contains a boolean?,0,0,0,1,0,0,0,0,0
+Subtract a value from every number in a list in Python?,0,0,0,0,0,0,0,0,0
+Best way to choose a random file from a directory,0,0,0,0,0,0,0,0,0
+How to get the highest element in absolute value in a numpy matrix?,0,0,0,0,0,0,0,0,0
+Using Regular Expressions to extract specific urls in python,0,0,0,0,0,0,0,0,0
+Using Regular Expressions to extract specific urls in python,0,0,0,0,0,0,0,0,0
+Is there a function in Python to split a string without ignoring the spaces?,0,0,0,1,0,0,0,0,0
+Open file in Python,0,0,0,0,0,0,0,0,0
+Sum of multiple list of lists index wise,0,0,0,0,0,0,0,0,0
+"numpy: syntax/idiom to cast (n,) array to a (n, 1) array?",0,0,0,0,0,0,0,0,0

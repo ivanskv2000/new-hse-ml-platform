@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "orchestrator"
+version = "0.1.0"
+description = ""
+authors = ["Ivan Skvortsov <iaskvortsov@avito.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Flask = "^2.3.2"
+flask-restx = "^1.1.0"
+Flask-SQLAlchemy = "^3.0.3"
+SQLAlchemy-Utils = "^0.41.1"
+PyYAML = "^6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

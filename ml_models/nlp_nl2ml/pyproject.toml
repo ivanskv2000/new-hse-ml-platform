@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "nlp-nl2ml"
+version = "0.1.0"
+description = "Natural Language to Machine Learning (NL2ML) Model"
+authors = ["Ivan Skvortsov <iaskvortsov@avito.ru>"]
+readme = "README.md"
+packages = [{include = "nlp_nl2ml"}]
+
+[tool.poetry.dependencies]
+python = "3.8.0"
+numpy = "1.19.5"
+pandas = "1.2.2"
+scikit-learn = "0.22.2.post1"
+cloudpickle = "2.2.0"
+lime = "^0.2.0.1"
+Flask = "^2.3.2"
+flask-restx = "^1.1.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.22.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
