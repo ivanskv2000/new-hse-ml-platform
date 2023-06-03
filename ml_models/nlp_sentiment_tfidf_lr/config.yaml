@@ -1,9 +1,9 @@
 ---
 # ML Model Configuration & Metadata
 
-name: NL2ML
-tech_name: nlp_nl2ml
-description: Natural Language to Machine Learning (NL2ML) Model
+name: Sentiment Classification Model
+tech_name: nlp_sentiment_tfidf_lr
+description: TBC
 
 task_type: classification
 task_class: multi-class
