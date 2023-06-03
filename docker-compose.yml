@@ -22,15 +22,12 @@ services:
   nlp_nl2ml:
     container_name: nlp_nl2ml
     restart: always
-    build: ./ml_models/nlp_nl2ml
-    #image: postgres:10
+    build: ./${MODELS_DIR}/nlp_nl2ml
     volumes:
       - ./${MODELS_DIR}/nlp_nl2ml/:/model
       - ./${EXEC_DIR}:/executions
     environment:
       - POSTGRES_DB=${POSTGRES_DB}
-      - POSTGRES_USER=${POSTGRES_USER}
-      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
     ports:
       - "5430"
     expose:

@@ -4,7 +4,6 @@ version = "0.1.0"
 description = "TBC"
 authors = ["Ivan Skvortsov <ivanskv2000@gmail.com>"]
 readme = "README.md"
-packages = [{include = "nlp_sentiment_tfidf_lr"}]
 
 [tool.poetry.dependencies]
 python = "3.8"
@@ -51,8 +50,9 @@ threadpoolctl = "3.1.0"
 tqdm = "4.64.0"
 typing-extensions = "4.3.0"
 urllib3 = "1.26.12"
-Werkzeug = "2.2.2"
 wrapt = "1.14.1"
+Flask = "^2.3.2"
+flask-restx = "^1.1.0"
 
 
 [build-system]

@@ -1,6 +1,6 @@
 from flask import Flask
 from flask_restx import Resource, Api
-from artifacts.predict_tag import predict_tag, explain_lime
+from artifacts.sentiment.sentiment import run_inference_pipeline, explain_lime
 import os
 
 MODEL_DIR = '.'
@@ -10,9 +10,9 @@ supported_methods = ['infer', 'explain']
 app = Flask(__name__)
 api = Api(
     app,
-    title="nlp_nl2ml",
+    title="nlp_sentiment_tfidf_lr",
     version="1.0",
-    description="Natural Language to Machine Learning (NL2ML) Model API"
+    description="TBC"
     )
 
 
@@ -29,7 +29,7 @@ class ModelInference(Resource):
         data_input_path = os.path.join(EXECUTIONS_DIR, exec_id)
         data_output_path = data_input_path
 
-        predict_tag(data_input_path, data_output_path, path_to_model_dir)
+        run_inference_pipeline(data_input_path, data_output_path, path_to_model_dir)
 
         return {'exec_id': exec_id, 'status': 'finished', 'output': data_output_path}
 

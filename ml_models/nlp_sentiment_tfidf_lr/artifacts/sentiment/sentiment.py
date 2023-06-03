@@ -1,15 +1,6 @@
 import pandas as pd
-
-# from tensorflow.keras.preprocessing.sequence import pad_sequences
-# from tensorflow.keras.preprocessing.text import Tokenizer
 from sklearn.linear_model import LogisticRegression
-
-# from sklearn.feature_extraction.text import CountVectorizer
-# from sklearn.feature_extraction.text import TfidfTransformer
 import pickle
-import datetime
-
-# from sklearn.naive_bayes import MultinomialNB
 from .text_clean import clean_data_frame
 import os
 
@@ -61,7 +52,7 @@ def load_model(path):
 
 
 def run_inference_pipeline(
-    data_input_path, data_output_path, path_to_model_dir, model_type, vec_type
+    data_input_path, data_output_path, path_to_model_dir, model_type='logreg', vec_type='tfidf'
 ):
     # Изначально данные "грязные"
     # Столбцы: datetime, text, ticker, sentiment (empty)
@@ -91,3 +82,7 @@ def run_inference_pipeline(
 
     output_table.to_csv(output_file_path)
     return output_table
+
+
+def explain_lime(data_input_path, explanation_output_path, path_to_model_dir, idx=None):
+    return
