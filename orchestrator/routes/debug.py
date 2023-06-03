@@ -33,3 +33,9 @@ def get_executions():
     execs_in_db = Executions.query.all()
     execs_in_db = [sql_query_to_dict(i) for i in execs_in_db]
     return {'execs_in_db': execs_in_db}
+
+
+@debug.route("/debug/get_environ")
+def get_env_variables():
+    return {'env': list(os.environ)}
+
