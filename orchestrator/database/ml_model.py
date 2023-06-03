@@ -15,3 +15,4 @@ class Models(db.Model):
     data_type = db.Column(db.String(50))
     description = db.Column(db.String(50))
     has_explanation = db.Column(db.Boolean())
+    port = db.Column(db.Integer())

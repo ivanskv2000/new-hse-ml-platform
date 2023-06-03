@@ -2,7 +2,7 @@
 # ML Model Configuration & Metadata
 
 name: NL2ML
-tech_name: nlp-nl2ml
+tech_name: nlp_nl2ml
 description: Natural Language to Machine Learning (NL2ML) Model
 
 task_type: classification
@@ -10,3 +10,5 @@ task_class: multi-class
 
 data_type: string
 has_explanation: True
+
+port: 5430

@@ -13,6 +13,8 @@ Flask-SQLAlchemy = "^3.0.3"
 SQLAlchemy-Utils = "^0.41.1"
 PyYAML = "^6.0"
 coolname = "^2.2.0"
+watchdog = "^3.0.0"
+requests = "^2.31.0"
 
 
 [build-system]

@@ -1,32 +1,38 @@
 version: '3.8'
 
 services:
-  server:
-    container_name: server
+  orchestrator:
+    container_name: orchestrator
     restart: always
-    build: ./server
-    image: ivanskv2000/mlops-server
+    build: ./orchestrator
+    #image: ivanskv2000/mlops-server
     volumes:
-      - ./server/:/app
+      - ./orchestrator/:/app
+      - ./ml_models/:/ml_models
+      - ./executions:/executions
     ports:
-      - 8000:5000
+      - 8000:8000
     depends_on:
-      - database
-    env_file:
-      - ./.env
-  database:
-    container_name: database
+      - nlp_nl2ml
+    #env_file:
+    #  - ./.env
+    expose:
+      - "8000"
+  nlp_nl2ml:
+    container_name: nlp_nl2ml
     restart: always
-    image: postgres:10
+    build: ./ml_models/nlp_nl2ml
+    #image: postgres:10
+    volumes:
+      - ./ml_models/nlp_nl2ml/:/model
+      - ./executions:/executions
     environment:
       - POSTGRES_DB=${POSTGRES_DB}
       - POSTGRES_USER=${POSTGRES_USER}
       - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
-    volumes:
-      - ./postgres-data/postgres:/var/lib/postgresql/data
     ports:
-      - "5435:5432"
+      - "5430:5430"
     expose:
-      - "5435"
-    env_file:
-      - .env
+      - "5430"
+    #env_file:
+    #  - .env

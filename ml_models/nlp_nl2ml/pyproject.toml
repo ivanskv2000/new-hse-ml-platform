@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "Natural Language to Machine Learning (NL2ML) Model"
 authors = ["Ivan Skvortsov <iaskvortsov@avito.ru>"]
 readme = "README.md"
-packages = [{include = "nlp_nl2ml"}]
+
 
 [tool.poetry.dependencies]
 python = "3.8.0"
