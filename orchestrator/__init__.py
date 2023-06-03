@@ -1,6 +1,5 @@
 from flask import Flask
 
-from pathlib import Path
 import os
 import yaml
 import sqlite3
@@ -11,6 +10,8 @@ from database.ml_model import Models
 from database.executions import Executions
 from configs.config import PATH_TO_MODELS_DIR, PATH_TO_EXEC_DIR, PATH_TO_PROJ_ROOT
 from routes import model_execution
+from routes import execution_initialization
+from routes import debug
 
 DB_FILE = os.path.join(PATH_TO_PROJ_ROOT, "sqlite.db")
 
@@ -35,7 +36,10 @@ def create_app():
     with app.app_context():
         db.drop_all()
         db.create_all()
+
     app.register_blueprint(model_execution)
+    app.register_blueprint(execution_initialization)
+    app.register_blueprint(debug)
 
     return app
 
@@ -63,7 +67,7 @@ def populate_models(models_directory):
 
 
 if __name__ == "__main__":
-    #create_connection(DB_FILE)
+    # create_connection(DB_FILE)
     app = create_app()
     populate_models(PATH_TO_MODELS_DIR)
-    app.run(debug=True)
+    app.run(host="localhost", port=8000, debug=True)

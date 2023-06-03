@@ -12,6 +12,7 @@ flask-restx = "^1.1.0"
 Flask-SQLAlchemy = "^3.0.3"
 SQLAlchemy-Utils = "^0.41.1"
 PyYAML = "^6.0"
+coolname = "^2.2.0"
 
 
 [build-system]
