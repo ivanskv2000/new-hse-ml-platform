@@ -4,11 +4,9 @@ import os
 import yaml
 import sqlite3
 from sqlite3 import Error
-
 from database.flask_database import db
 from database.ml_model import Models
-from database.executions import Executions
-from configs.config import PATH_TO_MODELS_DIR, PATH_TO_EXEC_DIR, PATH_TO_PROJ_ROOT
+from configs.config import PATH_TO_MODELS_DIR, PATH_TO_PROJ_ROOT
 from routes import model_execution
 from routes import execution_initialization
 from routes import debug

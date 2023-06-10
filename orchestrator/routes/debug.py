@@ -1,18 +1,10 @@
 import os
-import json
-import uuid
-
 from flask import Blueprint
-
-import sys
-
-sys.path.append("..")
-
-from database.flask_database import db
 from database.ml_model import Models
 from database.executions import Executions
-from configs import PATH_TO_PROJ_ROOT
-from sqlalchemy.sql import select
+
+import sys
+sys.path.append("..")
 
 
 debug = Blueprint("debug", __name__)
