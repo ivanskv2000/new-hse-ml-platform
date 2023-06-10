@@ -20,8 +20,13 @@ def init_exec():
         id=str(exec_id), model_id=int(model_id), state="init", user=session_name
     )
 
-    with current_app.app_context():
-        db.session.add(exec_db_object)
-        db.session.commit()
+    exists = Executions.query.filter_by(id=str(exec_id)).first()
+    
+    if exists:
+        return {"state": "already exists"}
 
-    return {"state": "success"}
+    else:
+        with current_app.app_context():
+            db.session.add(exec_db_object)
+            db.session.commit()
+        return {"state": "success"}
