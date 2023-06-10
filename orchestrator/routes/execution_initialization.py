@@ -4,6 +4,7 @@ from database.executions import Executions
 from coolname import generate_slug
 
 import sys
+
 sys.path.append("..")
 
 session_name = generate_slug()
