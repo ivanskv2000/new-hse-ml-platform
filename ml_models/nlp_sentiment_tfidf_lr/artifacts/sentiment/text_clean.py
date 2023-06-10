@@ -3,14 +3,14 @@ import pandas as pd
 import nltk
 
 try:
-    nltk.data.find('tokenizers/punkt')
+    nltk.data.find("tokenizers/punkt")
 except LookupError:
-    nltk.download('punkt')
+    nltk.download("punkt")
 
 try:
-    nltk.data.find('corpora/stopwords')
+    nltk.data.find("corpora/stopwords")
 except LookupError:
-    nltk.download('stopwords')
+    nltk.download("stopwords")
 
 # Проблема с импортом - https://stackoverflow.com/questions/23704510/
 

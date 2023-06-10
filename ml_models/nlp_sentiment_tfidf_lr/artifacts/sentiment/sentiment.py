@@ -54,7 +54,11 @@ def load_model(path):
 
 
 def run_inference_pipeline(
-    data_input_path, data_output_path, path_to_model_dir, model_type='logreg', vec_type='tfidf'
+    data_input_path,
+    data_output_path,
+    path_to_model_dir,
+    model_type="logreg",
+    vec_type="tfidf",
 ):
     # Изначально данные "грязные"
     # Столбцы: datetime, text, ticker, sentiment (empty)
@@ -97,8 +101,8 @@ def explain_lime(data_input_path, explanation_output_path, path_to_model_dir, id
     dirty_data_table = pd.read_csv(os.path.join(data_input_path, "input.csv"))
     data_table = clean_data_frame(dirty_data_table)
 
-    model_type = 'logreg'
-    vec_type = 'tfidf'
+    model_type = "logreg"
+    vec_type = "tfidf"
     model_filename = f"{model_type}_{vec_type}.pickle"
     path_to_checkpoints = os.path.join(path_to_model_dir, "artifacts", "models")
     path_to_model = os.path.join(path_to_checkpoints, model_filename)
@@ -113,10 +117,6 @@ def explain_lime(data_input_path, explanation_output_path, path_to_model_dir, id
     c = make_pipeline(countvec, transformer, model)
     explainer = LimeTextExplainer(class_names=None)
     exp = explainer.explain_instance(posts[idx], c.predict_proba, num_features=5)
-    exp.save_to_file(os.path.join(explanation_output_path, 'explanation.html'), text=True)
-
-
-    
-
-
-
+    exp.save_to_file(
+        os.path.join(explanation_output_path, "explanation.html"), text=True
+    )

@@ -30,7 +30,7 @@ def create_connection(db_file):
 
 def create_app():
     app = Flask(__name__)
-    app.config["SQLALCHEMY_DATABASE_URI"] = 'sqlite:///' + DB_FILE
+    app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///" + DB_FILE
     db.init_app(app)
 
     with app.app_context():
@@ -60,7 +60,7 @@ def populate_models(models_directory):
             task_class=model_config["task_class"],
             data_type=model_config["data_type"],
             has_explanation=model_config["has_explanation"],
-            port=5430
+            port=5430,
         )
         with app.app_context():
             db.session.add(model_db_object)
@@ -71,4 +71,4 @@ if __name__ == "__main__":
     # create_connection(DB_FILE)
     app = create_app()
     populate_models(PATH_TO_MODELS_DIR)
-    app.run(host="0.0.0.0", port=os.environ['PORT'], debug=False)
+    app.run(host="0.0.0.0", port=os.environ["PORT"], debug=False)
