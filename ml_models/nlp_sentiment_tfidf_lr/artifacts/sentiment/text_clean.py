@@ -1,24 +1,20 @@
 import pymorphy2
 import pandas as pd
-from nltk.tokenize import word_tokenize
+import nltk
 
-# строки download должны быть запущены, когда среда запускается в первый раз
-# import nltk
-# nltk.download('stopwords')
-# nltk.download('punkt')
+try:
+    nltk.data.find('tokenizers/punkt')
+except LookupError:
+    nltk.download('punkt')
 
-# try:
-#     nltk.data.find('tokenizers/punkt')
-# except LookupError:
-#     nltk.download('punkt')
-
-# try:
-#     nltk.data.find('corpora/stopwords')
-# except LookupError:
-#     nltk.download('stopwords')
+try:
+    nltk.data.find('corpora/stopwords')
+except LookupError:
+    nltk.download('stopwords')
 
 # Проблема с импортом - https://stackoverflow.com/questions/23704510/
 
+from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 
 ru_stops = set(stopwords.words("russian"))

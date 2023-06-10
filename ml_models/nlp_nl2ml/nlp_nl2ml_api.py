@@ -3,8 +3,14 @@ from flask_restx import Resource, Api
 from artifacts.predict_tag import predict_tag, explain_lime
 import os
 
+
+exec_dir = os.environ.get('EXEC_DIR', None)
+if exec_dir:
+    EXECUTIONS_DIR = os.path.join('..', exec_dir)
+else:
+    EXECUTIONS_DIR = '../../executions'
+
 MODEL_DIR = '.'
-EXECUTIONS_DIR = '../executions'
 supported_methods = ['infer', 'explain']
 
 app = Flask(__name__)
@@ -19,7 +25,7 @@ api = Api(
 @api.route('/methods')
 class ApiMethods(Resource):
     def get(self):
-        return {'methods': supported_methods}
+        return {'methods': supported_methods, 'exec_dir': EXECUTIONS_DIR}
 
 
 @api.route('/infer/<string:exec_id>')

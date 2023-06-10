@@ -3,6 +3,8 @@ from sklearn.linear_model import LogisticRegression
 import pickle
 from .text_clean import clean_data_frame
 import os
+from lime.lime_text import LimeTextExplainer
+from sklearn.pipeline import make_pipeline
 
 num_words = 100000
 max_review_len = 5000
@@ -85,4 +87,36 @@ def run_inference_pipeline(
 
 
 def explain_lime(data_input_path, explanation_output_path, path_to_model_dir, idx=None):
-    return
+
+    if not idx:
+        idx = 0
+
+    if not os.path.exists(explanation_output_path):
+        os.makedirs(explanation_output_path)
+
+    dirty_data_table = pd.read_csv(os.path.join(data_input_path, "input.csv"))
+    data_table = clean_data_frame(dirty_data_table)
+
+    model_type = 'logreg'
+    vec_type = 'tfidf'
+    model_filename = f"{model_type}_{vec_type}.pickle"
+    path_to_checkpoints = os.path.join(path_to_model_dir, "artifacts", "models")
+    path_to_model = os.path.join(path_to_checkpoints, model_filename)
+
+    model = load_model(path_to_model)
+    countvec = load_count_vect(path_to_checkpoints)
+    transformer = load_tfidf_transformer(path_to_checkpoints)
+
+    data_table = data_table.dropna()
+    posts = data_table["cleaned_posts"]
+
+    c = make_pipeline(countvec, transformer, model)
+    explainer = LimeTextExplainer(class_names=None)
+    exp = explainer.explain_instance(posts[idx], c.predict_proba, num_features=5)
+    exp.save_to_file(os.path.join(explanation_output_path, 'explanation.html'), text=True)
+
+
+    
+
+
+

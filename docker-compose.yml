@@ -15,6 +15,7 @@ services:
       - ${ORCHESTRATOR_PORT}:${ORCHESTRATOR_PORT}
     depends_on:
       - nlp_nl2ml
+      - nlp_sentiment_tfidf_lr
     #env_file:
     #  - ./.env
     expose:
@@ -27,7 +28,22 @@ services:
       - ./${MODELS_DIR}/nlp_nl2ml/:/model
       - ./${EXEC_DIR}:/executions
     environment:
-      - POSTGRES_DB=${POSTGRES_DB}
+      - EXEC_DIR=${EXEC_DIR}
+    ports:
+      - "5430"
+    expose:
+      - "5430"
+    #env_file:
+    #  - .env
+  nlp_sentiment_tfidf_lr:
+    container_name: nlp_sentiment_tfidf_lr
+    restart: always
+    build: ./${MODELS_DIR}/nlp_sentiment_tfidf_lr
+    volumes:
+      - ./${MODELS_DIR}/nlp_sentiment_tfidf_lr/:/model
+      - ./${EXEC_DIR}:/executions
+    environment:
+      - EXEC_DIR=${EXEC_DIR}
     ports:
       - "5430"
     expose:
