@@ -107,10 +107,14 @@ def explain_lime(data_input_path, explanation_output_path, path_to_model_dir, id
 
     for i, estimator in enumerate(estimators):
         tag = TAGS_TO_PREDICT[i]
-        class_names = ['None', tag]
+        class_names = ["None", tag]
         c = make_pipeline(tfidf, estimator)
         explainer = LimeTextExplainer(class_names=class_names)
-        exp = explainer.explain_instance(code_blocks[idx], c.predict_proba, num_features=5)
-        exp.save_to_file(os.path.join(explanation_output_path, 'explanation.html'), text=True)
+        exp = explainer.explain_instance(
+            code_blocks[idx], c.predict_proba, num_features=5
+        )
+        exp.save_to_file(
+            os.path.join(explanation_output_path, "explanation.html"), text=True
+        )
 
         break

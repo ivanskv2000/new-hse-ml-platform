@@ -1,0 +1,73 @@
+.
+├── README.md
+├── docker-compose.yml
+├── executions
+│   ├── nlp_sentiment_test
+│   │   ├── explanation
+│   │   │   └── explanation.html
+│   │   ├── input.csv
+│   │   └── output.csv
+│   └── nlp_test
+│       ├── explanation
+│       │   └── explanation.html
+│       ├── input.csv
+│       └── output.csv
+├── ml_models
+│   ├── nlp_nl2ml
+│   │   ├── Dockerfile
+│   │   ├── README.md
+│   │   ├── artifacts
+│   │   │   ├── models
+│   │   │   │   ├── get_weights_from_here.txt
+│   │   │   │   ├── run_this_to_get_files.py
+│   │   │   │   ├── svm_regex_graph_v5.sav
+│   │   │   │   └── tfidf_svm_graph_v5.pickle
+│   │   │   └── predict_tag.py
+│   │   ├── config.yaml
+│   │   ├── nlp_nl2ml_api.py
+│   │   └── pyproject.toml
+│   └── nlp_sentiment_tfidf_lr
+│       ├── Dockerfile
+│       ├── README.md
+│       ├── artifacts
+│       │   ├── models
+│       │   │   ├── count_vect.pkl
+│       │   │   ├── logreg_bag_of_words.pickle
+│       │   │   ├── logreg_tfidf.pickle
+│       │   │   ├── naive_bayes_bag_of_words.pickle
+│       │   │   └── tfidf_transformer.pkl
+│       │   └── sentiment
+│       │       ├── __init__.py
+│       │       ├── __pycache__
+│       │       │   ├── __init__.cpython-38.pyc
+│       │       │   ├── sentiment.cpython-38.pyc
+│       │       │   └── text_clean.cpython-38.pyc
+│       │       ├── sentiment.py
+│       │       └── text_clean.py
+│       ├── config.yaml
+│       ├── exec_script.py
+│       ├── nlp_sentiment_api.py
+│       ├── poetry.lock
+│       ├── pyproject.toml
+│       ├── requirements.txt
+│       └── setup_script.py
+└── orchestrator
+    ├── Dockerfile
+    ├── __init__.py
+    ├── configs
+    │   ├── __init__.py
+    │   └── config.py
+    ├── database
+    │   ├── __init__.py
+    │   ├── executions.py
+    │   ├── flask_database.py
+    │   └── ml_model.py
+    ├── instance
+    │   └── sqlite.db
+    ├── poetry.lock
+    ├── pyproject.toml
+    └── routes
+        ├── __init__.py
+        ├── debug.py
+        ├── execution_initialization.py
+        └── model_execution.py

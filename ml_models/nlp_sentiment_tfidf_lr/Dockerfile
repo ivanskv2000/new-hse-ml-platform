@@ -15,4 +15,4 @@ COPY . ./
 
 RUN poetry install
 
-CMD [ "poetry", "run" , "python3", "nlp_nl2ml_api.py"]
+CMD [ "poetry", "run" , "python3", "nlp_sentiment_api.py"]

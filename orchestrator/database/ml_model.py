@@ -1,6 +1,4 @@
 from database.flask_database import db
-from sqlalchemy_utils import UUIDType
-import uuid
 
 
 class Models(db.Model):
