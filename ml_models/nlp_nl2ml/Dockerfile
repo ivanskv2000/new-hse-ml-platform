@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 
-FROM python:3.8.0-slim
+FROM --platform=linux/amd64 python:3.8.0-slim
 LABEL maintainer "Ivan Skvortsov <iaskvortsov@edu.hse.ru>"
 
 WORKDIR /model

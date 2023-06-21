@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 
-FROM python:3.9-slim-buster
+FROM --platform=linux/amd64 python:3.9-slim-buster
 LABEL maintainer "Ivan Skvortsov <iaskvortsov@edu.hse.ru>"
 
 WORKDIR /app
@@ -18,5 +18,5 @@ RUN poetry install
 
 CMD [ "poetry", "run" , "python3", "__init__.py"]
 
-WORKDIR /ml_models
-WORKDIR /executions
+# WORKDIR /ml_models
+# WORKDIR /executions
