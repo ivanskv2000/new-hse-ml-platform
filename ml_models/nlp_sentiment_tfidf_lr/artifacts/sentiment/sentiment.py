@@ -11,7 +11,6 @@ max_review_len = 5000
 
 
 def fit_logreg(x_train, y_train):
-
     lr = LogisticRegression(
         class_weight="balanced",
         solver="liblinear",
@@ -91,7 +90,6 @@ def run_inference_pipeline(
 
 
 def explain_lime(data_input_path, explanation_output_path, path_to_model_dir, idx=None):
-
     if not idx:
         idx = 0
 

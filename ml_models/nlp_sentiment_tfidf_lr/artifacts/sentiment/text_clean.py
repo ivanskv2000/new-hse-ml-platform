@@ -99,13 +99,11 @@ ticker_list = ["RKKE", "RNFT"]
 
 
 def clean_and_combine(ticker_list):
-
     general_table = pd.DataFrame()
 
     # Очищаем весь текст от лишних знаков препинания и т.п.
 
     for k in ticker_list:
-
         text1 = pd.read_excel(str(k) + "_MFD.xlsx")
         text1_test = text1["posts"].astype(str)
 
@@ -128,7 +126,6 @@ def clean_and_combine(ticker_list):
 
         # проводим итерацию по всему списку
         for x in text1_without:
-
             token = preprocess_text(x)
 
             tokenized_final.append(token)
@@ -149,7 +146,6 @@ def clean_and_combine(ticker_list):
 
         # проводим итерацию по лемматизации слов
         for z in tokenized_final:
-
             lemma = lemmatize(z)
 
             lemmatized_final.append(lemma)
@@ -185,7 +181,6 @@ def clean_and_combine(ticker_list):
 
 
 def clean_text_column(text_column):
-
     # text1_without = text1_test.str.replace("[\([{})\]]", "")
     # text1_without = text1_test.str.replace('[\n/!@#$%^&*()"№;—:?=|«»,.]', " ")
     # text1_without = text1_test.str.replace("[0-9+]", " ")
@@ -244,7 +239,6 @@ def clean_text_column(text_column):
 
 
 def clean_data_frame(data_table):
-
     # Очищаем весь текст от лишних знаков препинания и т.п.
 
     text_column = data_table["posts"].astype(str)

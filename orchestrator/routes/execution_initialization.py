@@ -21,7 +21,7 @@ def init_exec():
     )
 
     exists = Executions.query.filter_by(id=str(exec_id)).first()
-    
+
     if exists:
         return {"state": "already exists"}
 

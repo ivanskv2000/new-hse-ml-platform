@@ -3,7 +3,6 @@ import shutil
 
 
 def get_file_yadisk(url, local_filename):
-
     headers = {"Accept": "application/json", "Content-Type": "application/json"}
 
     r = requests.get(

@@ -7,7 +7,6 @@ import uuid
 
 
 class Executions(db.Model):
-
     __tablename__ = "executions"
 
     id = db.Column(db.String(50), primary_key=True)

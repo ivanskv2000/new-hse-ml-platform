@@ -16,7 +16,7 @@ def infer_execution(exec_id):
     exec_model_id = Executions.query.filter_by(id=exec_id).first().model_id
     exec_model_name = Models.query.filter_by(id=exec_model_id).first().tech_name
     inference_api_call = f"http://{exec_model_name}:5430/infer/{exec_id}"
-    
+
     r = requests.get(url=inference_api_call)
 
     if r:
@@ -28,7 +28,7 @@ def explain_execution(exec_id):
     exec_model_id = Executions.query.filter_by(id=exec_id).first().model_id
     exec_model_name = Models.query.filter_by(id=exec_model_id).first().tech_name
     inference_api_call = f"http://{exec_model_name}:5430/explain/{exec_id}"
-    
+
     r = requests.get(url=inference_api_call)
 
     if r:

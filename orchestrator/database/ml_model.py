@@ -2,7 +2,6 @@ from database.flask_database import db
 
 
 class Models(db.Model):
-
     __tablename__ = "models"
 
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)
