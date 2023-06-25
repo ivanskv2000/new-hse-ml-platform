@@ -16,8 +16,11 @@ def infer_execution(exec_id):
     exec_model_id = Executions.query.filter_by(id=exec_id).first().model_id
     exec_model_name = Models.query.filter_by(id=exec_model_id).first().tech_name
     inference_api_call = f"http://{exec_model_name}:5430/infer/{exec_id}"
-    _ = requests.get(url=inference_api_call)
-    return {"state": "success"}
+    
+    r = requests.get(url=inference_api_call)
+
+    if r:
+        return {"state": "success"}
 
 
 @model_execution.route("/explanation/<string:exec_id>")
@@ -25,5 +28,8 @@ def explain_execution(exec_id):
     exec_model_id = Executions.query.filter_by(id=exec_id).first().model_id
     exec_model_name = Models.query.filter_by(id=exec_model_id).first().tech_name
     inference_api_call = f"http://{exec_model_name}:5430/explain/{exec_id}"
-    _ = requests.get(url=inference_api_call)
-    return {"state": "success"}
+    
+    r = requests.get(url=inference_api_call)
+
+    if r:
+        return {"state": "success"}

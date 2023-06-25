@@ -115,6 +115,7 @@ def explain_lime(data_input_path, explanation_output_path, path_to_model_dir, id
     posts = data_table["cleaned_posts"]
 
     c = make_pipeline(countvec, transformer, model)
+
     explainer = LimeTextExplainer(class_names=None)
     exp = explainer.explain_instance(posts[idx], c.predict_proba, num_features=5)
     exp.save_to_file(

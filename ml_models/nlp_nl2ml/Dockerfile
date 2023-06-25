@@ -10,7 +10,8 @@ ENV PYTHONUNBUFFERED 1
 
 RUN pip install "poetry" && poetry config virtualenvs.create false
 
-COPY poetry.lock pyproject.toml /model/
+#COPY poetry.lock pyproject.toml /model/
+COPY pyproject.toml /model/
 COPY . ./
 
 RUN poetry install
