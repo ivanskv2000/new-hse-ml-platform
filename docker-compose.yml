@@ -16,8 +16,6 @@ services:
     depends_on:
       - nlp_nl2ml
       - nlp_sentiment_tfidf_lr
-    #env_file:
-    #  - ./.env
     expose:
       - ${ORCHESTRATOR_PORT}
   nlp_nl2ml:
@@ -33,8 +31,6 @@ services:
       - "5430"
     expose:
       - "5430"
-    #env_file:
-    #  - .env
   nlp_sentiment_tfidf_lr:
     container_name: nlp_sentiment_tfidf_lr
     restart: always
@@ -48,5 +44,3 @@ services:
       - "5430"
     expose:
       - "5430"
-    #env_file:
-    #  - .env
