@@ -2,7 +2,7 @@
 name = "nlp-sentiment-tfidf-lr"
 version = "0.1.0"
 description = "TBC"
-authors = ["Ivan Skvortsov <ivanskv2000@gmail.com>"]
+authors = ["Ivan Skvortsov <iaskvortsov@edu.hse.ru>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]

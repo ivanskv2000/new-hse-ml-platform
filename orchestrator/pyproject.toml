@@ -2,7 +2,7 @@
 name = "orchestrator"
 version = "0.1.0"
 description = ""
-authors = ["Ivan Skvortsov <iaskvortsov@avito.ru>"]
+authors = ["Ivan Skvortsov <iaskvortsov@edu.hse.ru>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
